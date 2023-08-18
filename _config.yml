@@ -1,17 +1,17 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+title: Brox
+subtitle: IT BLOG
+email: poogozip@gmail.com
+description:
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+author: 최우찬
+street_address:
+city: 안양시
+state: 경기도
+zip_code:
+country: Republic of Korea
+phone: 010-7143-9120
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

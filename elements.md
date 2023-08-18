@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Elements
-image: assets/images/pic01.jpg
+title: 최우찬
+image: assets/images/최우찬_사진.jpg
 nav-menu: true
 ---
 
