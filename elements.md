@@ -13,16 +13,26 @@ nav-menu: true
 	<div class="inner">
 		<header class="major">
 			<h1>최우찬</h1>
+            <link rel="icon" href="assets/images/go-zip_logo.jpg">
 		</header>
     <!-- Content -->
     <h2 id="content">개발자의 시작</h2>
-    <p>
-        게임을 좋아했고 어릴때 꿈이었던 프로그래머를 위해 도전을 시작.
-        <br>
-        코드스테이츠에서 프론트엔드 1차과정이후 하차.
-        <br>
-        AcornAcademy에서 백엔드, 빅데이터 과정 수료후 개발자 취업.
-    </p>
+    <div class="row">
+        <div class="6u 12u$(small)">
+            <p>
+                게임을 좋아했고 어릴때 꿈이었던 프로그래머를 위해 도전을 시작.
+                <br>
+                코드스테이츠에서 프론트엔드 1차과정이후 하차.
+                <br>
+                AcornAcademy에서 백엔드, 빅데이터 과정 수료후 개발자 취업.
+            </p>
+        </div>
+        <div class="6u$ 12u$(small)">
+            <img src="assets/images/최우찬_사진.jpg" style="width:150px; height:200px;">
+            <p>
+            </p>
+        </div>
+    </div>
     <div class="row">
         <div class="6u 12u$(small)">
             <h3>경력</h3>
