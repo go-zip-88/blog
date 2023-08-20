@@ -61,24 +61,24 @@ nav-menu: true
                 <!-- Buttons -->
                 <h3>Skill List</h3>
                 <ul class="actions">
-                    <li><a href="#" class="button special">Java</a></li>
-                    <li><a href="#" class="button">Spring</a></li>
-                    <li><a href="#" class="button">Spring boot</a></li>
+                    <li><a class="button special">Java</a></li>
+                    <li><a class="button">Spring</a></li>
+                    <li><a class="button">Spring boot</a></li>
                 </ul>
                 <ul class="actions">
-                    <li><a href="#" class="button special">SQL</a></li>
-                    <li><a href="#" class="button">MySql</a></li>
-                    <li><a href="#" class="button">My Batis</a></li>
+                    <li><a class="button special">SQL</a></li>
+                    <li><a class="button">MySql</a></li>
+                    <li><a class="button">My Batis</a></li>
                 </ul>
                 <ul class="actions">
-                    <li><a href="#" class="button special">JavaScript</a></li>
-                    <li><a href="#" class="button">JSP</a></li>
-                    <li><a href="#" class="button">jQuery</a></li>
-                    <li><a href="#" class="button small">Vue.js</a></li>
+                    <li><a class="button special">JavaScript</a></li>
+                    <li><a class="button">JSP</a></li>
+                    <li><a class="button">jQuery</a></li>
+                    <li><a class="button small">Vue.js</a></li>
                 </ul>
                 <ul class="actions">
-                    <li><a href="#" class="button special">Python</a></li>
-                    <li><a href="#" class="button">AI</a></li>
+                    <li><a class="button special">Python</a></li>
+                    <li><a class="button">AI</a></li>
                 </ul>
             </div>
         </div>
