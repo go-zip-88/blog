@@ -88,6 +88,7 @@ nav-menu: true
                     <ul class="actions">
                         <li><a class="button special">Python</a></li>
                         <li><a class="button">AI</a></li>
+                        <li><a class="button">Kaggle</a></li>
                     </ul>
                 </div>
             </div>
