@@ -87,35 +87,64 @@
           
 	  
 	  <header class="major">
-	    <h1>Kaggle을 시작하기</h1>
+	    <h1>Openfire Server와 strophe.js</h1>
 	  </header>
 	  
-	  <p>2023-08-22 00:00:00 +0900</p>
-	  <p>
+	  <p>2023-11-02 00:00:00 +0900</p>
+	  <p><h3 id="openfire-server와-strophejs를-이용한-채팅-기능-구현">Openfire server와 strophe.js를 이용한 채팅 기능 구현</h3>
+<ul>
+  <li>env
+    <ul>
+      <li>com : macbook pro 16 m1(2021).</li>
+      <li>ios : macSONOMA 14.0v.</li>
+      <li>java : java 11v.</li>
+      <li>front : jsp</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="assets/images/openfire.png" alt="Openfire" /></p>
+
+<ul>
+  <li>Openfire server 적용하기
+    <ul>
+      <li>openfire server에서는 포스트 작성일(2023/11/02)기준일
+        <ul>
+          <li><img src="assets/images/opnefire_mac_down.png" alt="Openfire mac 설치 미지원" /><br />
+mac용 설치파일이 지원하지 않는것으로 보임.</li>
+        </ul>
+      </li>
+      <li>그래서 <a href="https://github.com/igniterealtime/Openfire">openfire server source: github</a> 에서 소스를 직접 받아서 설치하는것으로 결정.
+        <ul>
+          <li>다운로드 후에 소스쪽에서 <code class="language-plaintext highlighter-rouge">./mvnw verify</code> 명령어를 이용하여 build 완료.</li>
+          <li>
+            <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>발생한 문제점 및 해결.
+java 8v.으로 시도하였으나 build가 되지 않아서 java 11v으로 변경.
+11v의 경우 제대로 build가 되는것을 확인 완료.
+</code></pre></div>            </div>
+          </li>
+          <li><code class="language-plaintext highlighter-rouge">./distribution/target/distribution-base/bin/openfire.sh</code> shell script를 실행하여 서버를 작동 완료.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>strophe.js 적용하기.
+    <ul>
+      <li>jsp작업부분에서 <a href="https://cdnjs.com/libraries/strophe.js/1.2.16">strophe.js: CDN</a> CDN을 이용하여 strophe.js 기능 import.</li>
+      <li>strophe.js를 이용해서 openfire server XMPP server 기능을 이용.</li>
+    </ul>
+  </li>
+</ul>
 </p>
 	  
           
 	  
 	  <header class="major">
-	    <h1>Tempus</h1>
+	    <h1>Kaggle을 시작하기</h1>
 	  </header>
-	  <span class="image main"><img src="/blog/assets/images/pic02.jpg" alt="" /></span>
-	  <p>2016-08-24 00:00:00 +0900</p>
-	  <p><p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
-Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. 
-Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. 
-Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. 
-Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. 
-Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. 
-Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-
-<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
-Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. 
-Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+	  
+	  <p>2023-08-22 00:00:00 +0900</p>
+	  <p>
 </p>
 	  
           
